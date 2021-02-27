@@ -1,0 +1,6 @@
+In questa repository puoi trovare:
+- I file HTML utilizzati per creare alcuni contenuti del blog;
+- Alcuni file CSS contenenti cambiamenti stilistici a pagine o elementi del blog, che sono poi stati uniti in un singolo file;
+- Il file CSS definitivo con tutti i cambiamenti stilistici, effettivamente utilizzato per il sito;
+
+P.S. Il file CSS definitivo è stato aggiornato e corretto per risolvere errori e problematiche. Non tutte le correzioni sono quindi visibili anche negli altri file CSS. 

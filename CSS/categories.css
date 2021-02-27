@@ -1,0 +1,112 @@
+.page-id-2045 #simple-contact-form-wrap {
+  padding: 0 5em;
+  margin-left: 25%;
+}
+
+.page-id-2045 .dividers {
+  margin: 2em auto;
+  width: 80%;
+  height: 1.5em;
+  background: #d7ff36;
+  box-shadow: 1em 0.5em 0 0 #1b1b1b;
+}
+
+.page-id-2045 section {
+  display: grid;
+  grid-template-columns: [c1] 25% [c2] 75% [c3];
+  grid-template-rows: [r1] auto [r2];
+  margin: 0;
+}
+
+.page-id-2045 .driver {
+  grid-column-start: c1;
+  grid-column-end: c2;
+  grid-row-start: r1;
+  grid-row-end: r2;
+  border-bottom: solid 2px #1b1b1b;
+  padding: 1.5em;
+  margin-right: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  writing-mode: vertical-lr;
+}
+
+.page-id-2045 .driver>h2 {
+  text-transform: uppercase;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  text-align: center;
+  -webkit-text-fill-color: #f7f7f7;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1b1b1b;
+  transition: linear 0.3s;
+  transformation-origin: center;
+  transform: rotate(180deg);
+}
+
+.page-id-2045 .c_content {
+  grid-column-start: c2;
+  grid-column-end: c3;
+  grid-row-start: r1;
+  grid-row-end: r2;
+  border-bottom: solid 2px #1b1b1b;
+  padding: 5em;
+  justify-content: center;
+  text-align: justify;
+}
+
+.page-id-2045 #sec-6 .driver {
+  border-bottom: none;
+}
+
+.page-id-2045 #sec-6 .c_content {
+  border-bottom: none;
+}
+
+.page-id-2045 .c_content>h3 {
+  font-weight: 900 !important;
+  font-size: 25px;
+  box-shadow: inset 0 -0.8em 0 0 #d7ff36;
+}
+
+.page-id-2045 .c_content>blockquote {
+  padding-left: 1em;
+  border-left: solid 3px #d7ff36;
+  margin: 1.5em 0 0 1em;
+  font-size: medium;
+}
+
+.page-id-2045 .c_content>p {
+  font-size: medium;
+}
+
+.page-id-2045 .c_content>a {
+  font-size: medium;
+  padding: 0.4em 0.6em;
+  background: #d7ff36;
+  color: #1b1b1b;
+  box-shadow: inset 0 0 0 0 #1b1b1b;
+  transition: linear 1s;
+  margin: 1em auto 0 auto;
+}
+
+.page-id-2045 .c_content>a:hover {
+  color: #d7ff36;
+  box-shadow: inset 500px 0 0 0 #1b1b1b;
+}
+
+@media only screen and (max-width: 800px) {
+    .page-id-2045 section {
+    display: block;
+  }
+
+  .page-id-2045 .c_content {
+    padding: 5em 0;
+  }
+
+  .page-id-2045 .driver {
+    display: none;
+  }
+}
