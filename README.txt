@@ -1,7 +1,6 @@
 # Blog
 
 In this repository you can find:
-
 - HTML files used to create some blog content;
 - Some CSS files containing stylistic changes to pages or elements of the blog, which were then merged into a single file;
 - The final CSS file with all the stylistic changes, actually used for the site;
