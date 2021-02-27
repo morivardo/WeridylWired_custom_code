@@ -1,0 +1,135 @@
+.inside-left-sidebar {
+  position: webkit-sticky;
+  position: sticky;
+  top: 150px;
+}
+
+.entry-title {
+  font-weight: 900;
+  box-shadow: inset 0 -0.6em 0 0 #d7ff36;
+  padding: 0 0.3em;
+}
+
+.cat_description {
+  margin-bottom: 5em;
+}
+
+.wp-show-posts-single:not(:last-child) {
+  margin-bottom: 3em !important;
+}
+
+.wp-show-posts-inner {
+  display: grid;
+  grid-template-columns: [c1] 50% [c2] 50% [c3];
+  grid-template-rows: [r1] auto [r2] auto [r3] auto [r4];
+}
+
+.wp-show-posts-image {
+  float: none !important;
+  grid-column: c1 / c2;
+  grid-row: r1 /r4;
+  margin: auto 1em auto 0;
+  filter: grayscale(100%) !important;
+  transition: ease-in-out 0.3s;
+}
+
+.wp-show-posts-image:hover {
+  filter: grayscale(0%) !important;
+}
+
+.wp-show-posts-entry-title {
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.wp-show-posts-entry-header {
+  margin: 0 0 1em;
+  padding: 0;
+  grid-column: c2 /c3;
+  grid-row: r1 / r2;
+}
+
+.wp-show-posts-entry-meta {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.wp-show-posts-entry-meta:hover {
+  color: #d7ff36 !important;
+}
+
+.wp-show-posts-entry-summary {
+  font-size: large;
+  font-weight: 700;
+  grid-column: c2 /c3;
+  grid-row: r2 / r3;
+}
+
+.wpsp-read-more {
+  grid-column: c2 /c3;
+  grid-row: r3 / r4;
+}
+
+.wpsp-read-more>a {
+  border: none;
+  font-size: large;
+  font-weight: 700;
+  background: #d7ff36;
+  color: #1b1b1b;
+  box-shadow: inset 0 0 0 0 #1b1b1b !important;
+  transition: linear 0.7s !important;
+}
+
+.wpsp-read-more>a:hover {
+  border: none;
+  background: #d7ff36 !Important;
+  color: #d7ff36;
+  box-shadow: inset 200px 0 0 0 #1b1b1b !Important;
+}
+
+.tagcloud {
+  width: 100%;
+  background: #f7f7f7;
+}
+
+.tag-cloud-link {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0.3em;
+  padding: 0 0.3em;
+  transition: linear 0.5s;
+  box-shadow: inset 0 0 0 0 #d7ff36;
+}
+
+.tag-cloud-link:hover {
+  box-shadow: inset 200px 0 0 0 #d7ff36;
+}
+
+@media only screen and (max-width: 520px) {
+  .wp-show-posts-inner {
+    display: block;
+  }
+
+  .wp-show-posts-image {
+    width: 100%;
+    margin: 0;
+  }
+
+  .wp-show-posts-entry-header {
+    margin: 1em auto 0.5em auto ;
+    width: 90%;
+  }
+
+  .wp-show-posts-entry-summary {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .wpsp-read-more {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-top: 1em;
+  }
+}
