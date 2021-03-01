@@ -407,7 +407,8 @@ p>a:hover {
 
 .av-social-share .av-share-btn a {
   background-color: #d7ff36 !important;
-  color: #1b1b1b !important;
+  -webkit-text-stroke-color: #1b1b1b;
+  -webkit-text-fill-color: #1b1b1b;
   box-shadow: inset 0 0 0 0 #1b1b1b;
   transition: linear 0.7s !important;
   -webkit-border-radius: 0 !important;
