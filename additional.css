@@ -450,7 +450,7 @@ p>a:hover {
   margin-left: 2em;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   #toc_container {
     margin-left: 0em;
   } 
@@ -464,7 +464,7 @@ p>a:hover {
 }
 
 #toc_container .toc_list {
-  margin: 0 0 3em 2em !important;
+  margin: 0 0 3em 2.5em !important;
 }
 
 #toc_container .toc_list li>ul {
