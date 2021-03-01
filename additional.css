@@ -210,6 +210,7 @@ nav {
   
   .footer-widget-1 {
     margin: 0 auto !important;
+    margin-bottom: 1em !important;
   }
   
   .footer-widget-2 {
@@ -348,8 +349,11 @@ body {
   margin-top: 0 !important;
 }
 
-h2.widget-title {
-  display: none;
+.widget-title {
+  margin-bottom: 1em !important;
+  font-weight: 700 !important;
+  font-size: 1.3em !important;
+  margin-bottom: 1em !important;
 }
 
 p>a {
@@ -1193,6 +1197,7 @@ p>a:hover {
   font-weight: 900 !important;
   font-size: 25px;
   box-shadow: inset 0 -0.8em 0 0 #d7ff36;
+  text-align: left;
 }
 
 .page-id-2045 .c_content>blockquote {
