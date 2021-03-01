@@ -383,10 +383,11 @@ p>a:hover {
   padding: 0 0.3em;
   box-shadow: inset 0 0 0 0 #d7ff36;
   transition: linear 0.7s;
+  text-decoration: underline;
 }
 
 .tags-links>a:hover {
-  box-shadow: inset 150px 0 0 0 #d7ff36;
+  box-shadow: inset 300px 0 0 0 #d7ff36;
 }
 
 .author>a {
