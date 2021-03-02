@@ -1,9 +1,13 @@
 #toc_container .toc_title {
+  font-size: 1.3em;
   font-weight: 700;
+  margin-bottom: 0.5em !important;
+  margin-top: 2em;
 }
 
 #toc_container .toc_list {
-  margin: 0 0 3em 2em !important;
+  margin: 0 !important;
+  margin-left: 3em !important;
 }
 
 #toc_container .toc_list li>ul {
