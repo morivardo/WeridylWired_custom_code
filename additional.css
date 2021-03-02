@@ -155,8 +155,13 @@ nav {
   margin: 0;
 }
 
+.newsletter {
+  display: flex;
+  align-items: baseline;
+  flex-flow: row wrap;
+}
+
 .newsletter>li {
-  display: inline;
   margin-right: 1em;
   white-space: nowrap;
 }
@@ -202,7 +207,7 @@ nav {
   display: none;
 }
 
-@media only screen and (max-width:560px) {
+@media only screen and (max-width:620px) {
   .inside-footer-widgets {
     margin: 0 !important;
     display: block !important;
@@ -563,8 +568,8 @@ p>a:hover {
   font-size: 1.3em;
 }
 
-.inside-article .page-header-image-single>img {
-  width: 50% !important;
+.inside-article .page-header-image-single {
+  display: none;
 }
 
 .entry-title {
@@ -1260,7 +1265,7 @@ p>a:hover {
 
 /***********************************/
 
-/**			Pagina About			**/
+/**			Pagina 3W			**/
 
 .page-id-1809 #simple-contact-form-wrap {
   padding: 0 5em;
