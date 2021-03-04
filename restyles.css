@@ -1528,7 +1528,7 @@ p>a:hover {
 }
 
 @media only screen and (max-width: 800px) {
-    .page-id-1809 section {
+  .page-id-1809 section {
     display: block;
   }
 
@@ -1575,10 +1575,11 @@ p>a:hover {
   font-size: large;
   text-align: center;
   width: 100%;
-  display: none;
+  display: block;
   box-shadow: inset 0 0 0 0 #1b1b1b;
   background: #d7ff36;
   padding: 0.3em 0;
+  margin-top: 2em;
   transition: linear 0.5s;
 }
 
@@ -1587,13 +1588,4 @@ p>a:hover {
   box-shadow: inset 0 -100px 0 0 #1b1b1b !important;
 }
 
-@media only screen and (max-wdith: 560px) {
-  #sec-1 .c_content .presentation {
-    display: none;
-  }
-  
-  #sec-1 .c_content .presentation-link {
-    display: block;
-  }
-}
 /*****************************************/
